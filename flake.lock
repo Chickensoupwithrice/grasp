@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "grasp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1586706168,
+        "narHash": "sha256-xLkxE24xtTghQpAfAqAsOvsGpz0coACXjNT8bHZhcxM=",
+        "owner": "karlicoss",
+        "repo": "grasp",
+        "rev": "4bc8f011227d1baa18b4e98543561534065490d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "karlicoss",
+        "repo": "grasp",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1671435975,
+        "narHash": "sha256-pEZT/KR0Vh874GHA2f6H1/m6Ls7su47dHaCQlXjbXNM=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c4ae266de959fb5a48a210bfc7ee16030a558638",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "grasp": "grasp",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
