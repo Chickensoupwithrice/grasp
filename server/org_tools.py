@@ -2,7 +2,7 @@ from datetime import datetime
 import re
 from typing import List, Optional
 
-DEFAULT_TEMPLATE = "* %U %:description %:tags\n%:link\n%:initial\n"
+DEFAULT_TEMPLATE = "\\%title: [[%:link|%:description]]\n%:tags\n%U\n\n\n%:link\n%:initial\n"
 
 # TODO reuse inorganic/orgparse??
 def date2org(t: datetime) -> str:
@@ -146,5 +146,3 @@ def test_templates():
             org_template=org_template
 
         )
-        print()
-        print(res)
